@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff; /* White background */
+  padding: 15px 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for separation */
+}
+
+/* Logo image */
+.logo-img {
+  height: 50px;
+  width: auto;
+  margin-right: 80px;
+}
+
+/* Navigation links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 35px;
+}
+
+
+.nav-links li a {
+  text-decoration: none;
+  color: #000000; /* Black text */
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #ff5722; /* Optional hover color (orange accent) */
+}
+
+.container{
+}
+
+.tour-image{
+  position: relative;
+  height: 400px;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+}
+
+.tour-image-list{
+  height: 350px;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.overlay{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  color: black;
+}
+
+.tour-cover-text{
+  font-size: xx-large;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.content-details {
+  display: flex;
+  justify-content: space-between; /* Optional: adds spacing */
+  align-items: flex-start;        /* Align items to the top */
+  gap: 30px;                      /* Space between the columns */
+  padding: 20px 30px;
+}
+
+.tour-overview {
+  padding: 20px 30px;
+  margin-top: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  color: #333;
+  line-height: 1.6;
+  font-family: Arial, sans-serif;
+  width: 70%;
+}
+
+.tour-overview h2 {
+  font-size: 24px;
+  margin-top: 0;
+  color: #2a2a2a;
+}
+
+.tour-overview p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.payment{
+  margin-top: 40px;
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  width: 400px;
+  text-align: center;
+}
+
+.price{
+  text-align: center;
+  font-size: xx-large;
+}
+
+.tour-price{
+  font-size: xx-large;
+  font-weight: bold;
+  color: orange;
+  display: inline;
+}
+
+.price-details{
+  font-size: large;
+}
+
+.pricing-details {
+  margin-bottom: 20px;
+}
+
+.pricing-check {
+  list-style: none;
+}
+
+.pricing-check li {
+  margin-bottom: 10px;
+  padding-left: 25px;
+  position: relative;
+  font-size: 16px;
+  color: #444;
+}
+
+.check-icon {
+  position: absolute;
+  left: 80px;
+  color: green;        /* Customize color if needed */
+  width: 20px;         /* Fixed width for alignment */
+  text-align: center;  /* Center the icon */
+}
+
+.book-tour{
+  padding: 16px 38px;
+  border-radius: 10px;
+  background-color: orange;
+  color: white;
+  border: none;
+  margin: 10px;
+  cursor: pointer;
+  font-size: large;
+}
+
+.book-tour:hover {
+  background-color: skyblue;
+  color: #fff;
+}
+
+
+
+.section-overview{
+  font-size: xx-large;
+}
+
+.heading{
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.day-card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin: 28px;
+      padding: 20px;
+    }
+
+    .day-header {
+      display: flex;
+      align-items: center;
+      background-color: orange;
+      color: white;
+      border-radius: 5px;
+      padding: 10px;
+      margin-bottom: 15px;
+    }
+
+    .day-number {
+      background-color: rgb(222 153 64);
+      border-radius: 5px;
+      padding: 10px;
+      margin-right: 15px;
+      font-weight: bold;
+    }
+
+    .icons {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 15px;
+    }
+
+    .icons span {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    h2 {
+      margin: 0;
+    }
+
+    p {
+      margin: 5px 0;
+    }
+
+.overview-image{
+  display: block;
+  margin: 20px auto 0 auto;
+  border-radius: 8px;
+  width: 35%;
+  height: auto;
+}
+
+
+.footerBox {
+  background-color: azure;
+  text-align: center;
+  min-height: 30px;
+}
+.footerBox p {
+  color: black;
+  font-size: 1.8rem;
+}
+.navright {
+  display: flex;
+  align-items: center;
+  gap: 450px;
+}

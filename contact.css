@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff; /* White background */
+  padding: 15px 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for separation */
+}
+
+/* Logo image */
+.logo-img {
+  height: 50px;
+  width: auto;
+  margin-right: 80px;
+}
+
+/* Navigation links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 35px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #000000; /* Black text */
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #ff5722; /* Optional hover color (orange accent) */
+}
+
+.tour-image {
+  position: relative;
+  height: 400px;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+}
+
+.tour-image-list {
+  height: 350px;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  color: black;
+}
+
+.tour-cover-text {
+  font-size: xx-large;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.content-details {
+  display: flex;
+  justify-content: space-between; /* Optional: adds spacing */
+  align-items: flex-start; /* Align items to the top */
+  gap: 30px; /* Space between the columns */
+  padding: 20px 30px;
+}
+
+.tour-overview {
+  padding: 20px 30px;
+  margin-top: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  color: #333;
+  line-height: 1.6;
+  font-family: Arial, sans-serif;
+  width: 70%;
+}
+
+.tour-overview h2 {
+  font-size: 24px;
+  margin-top: 0;
+  color: #2a2a2a;
+}
+
+.tour-overview p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.payment {
+  margin-top: 30px;
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  width: 400px;
+  text-align: center;
+}
+
+.price {
+  text-align: center;
+  font-size: xx-large;
+}
+
+.tour-price {
+  font-size: xx-large;
+  font-weight: bold;
+  color: orange;
+  display: inline;
+}
+
+.price-details {
+  font-size: large;
+}
+
+.book-tour {
+  padding: 16px 38px;
+  border-radius: 10px;
+  background-color: greenyellow;
+  border: none;
+  margin: 10px;
+  cursor: pointer;
+  font-size: large;
+}
+
+.section-overview {
+  font-size: xx-large;
+}
+
+.overview-image {
+  display: block;
+  margin: 20px auto 0 auto;
+  border-radius: 8px;
+  width: 35%;
+  height: auto;
+}
+
+.footerBox {
+  background-color: azure;
+  text-align: center;
+  min-height: 30px;
+}
+.footerBox p {
+  color: black;
+  font-size: 1.8rem;
+}
+.navright {
+  display: flex;
+  align-items: center;
+  gap: 450px;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9fb;
+  color: #333;
+}
+
+.contact-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #111;
+  margin-bottom: 20px;
+}
+
+.form-container {
+  background: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.03);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-weight: 500;
+}
+
+label span {
+  color: red;
+}
+
+input,
+textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+}
+
+textarea {
+  height: 120px;
+}
+
+button {
+  width: 100px;
+  padding: 10px;
+  background-color: orange;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkorange;
+}
+
+.contact-details {
+  margin-top: 40px;
+}
+
+.contact-details h2 {
+  margin-bottom: 15px;
+}
+
+.contact-details p {
+  margin: 8px 0;
+  line-height: 1.6;
+}
+
+.contact-details a {
+  color: orange;
+  text-decoration: none;
+}
+
+.contact-details a:hover {
+  text-decoration: underline;
+}
+.footer-contact {
+  background-color: #111;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer-inner {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.footer-logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.footer-contact p {
+  margin: 10px 0;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.footer-contact a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-contact a:hover {
+  text-decoration: underline;
+}
+
+.icon {
+  font-style: normal;
+}
