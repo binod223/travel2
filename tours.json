@@ -9,11 +9,6 @@
     "ratingsAverage": 4.8,
     "ratingsQuantity": 6,
     "images": ["mustang1.jpg", "mustang2.jpg", "mustang3.jpg"],
-    "startDates": [
-      "2025-07-19T09:00:00.000Z",
-      "2025-08-20T09:00:00.000Z",
-      "2025-09-18T09:00:00.000Z"
-    ],
     "_id": "5c88fa8cf4afda39709c2955",
     "name": "Mystic Mustang Adventure",
     "duration": 4,
@@ -65,11 +60,6 @@
     "ratingsAverage": 5,
     "ratingsQuantity": 9,
     "images": ["pokhara1.jpg", "pokhara2.jpg", "pokhara3.jpg"],
-    "startDates": [
-      "2025-07-25T09:00:00.000Z",
-      "2025-08-20T09:00:00.000Z",
-      "2025-19-05T09:00:00.000Z"
-    ],
     "_id": "5c88fa8cf4afda39709c2951",
     "name": "Pokhara Adventure Escape",
     "duration": 3,
@@ -125,11 +115,6 @@
     "ratingsAverage": 4.5,
     "ratingsQuantity": 6,
     "images": ["lumbini1.jpg", "lumbini2.jpg", "lumbini3.jpg"],
-    "startDates": [
-      "2022-01-05T10:00:00.000Z",
-      "2022-02-12T10:00:00.000Z",
-      "2023-01-06T10:00:00.000Z"
-    ],
     "_id": "5c88fa8cf4afda39709c295a",
     "name": "Lumbini - Enlightenment Path",
     "duration": 2,
@@ -171,11 +156,6 @@
     "ratingsAverage": 4.7,
     "ratingsQuantity": 7,
     "images": ["chitwan1.jpg", "chitwan2.jpg", "chitwan3.jpg"],
-    "startDates": [
-      "2021-08-05T09:00:00.000Z",
-      "2022-03-20T10:00:00.000Z",
-      "2022-08-12T09:00:00.000Z"
-    ],
     "_id": "5c88fa8cf4afda39709c2961",
     "name": "Chitwan - Green Heart of Nepal",
     "duration": 2,
@@ -217,11 +197,6 @@
     "ratingsAverage": 4.6,
     "ratingsQuantity": 5,
     "images": ["ktm1.jpg", "ktm2.jpg", "ktm3.jpg"],
-    "startDates": [
-      "2021-03-11T10:00:00.000Z",
-      "2021-05-02T09:00:00.000Z",
-      "2021-06-09T09:00:00.000Z"
-    ],
     "_id": "5c88fa8cf4afda39709c295d",
     "name": "Kathmandu - Trails of Temples",
     "duration": 3,
@@ -255,7 +230,7 @@
         "day": 2
       },
       {
-        "_id": "1",
+        "_id": "5c88fa8cf4afda39709c0006",
         "description": "Chandragiri Cable Car",
         "type": "Point",
         "coordinates": [27.68655, 85.21443],
@@ -273,12 +248,7 @@
     "ratingsAverage": 4.8,
     "ratingsQuantity": 6,
     "images": ["janakpur1.webp", "janakpur2.jpg", "janakpur3.jpg"],
-    "startDates": [
-      "2025-07-19T09:00:00.000Z",
-      "2025-08-20T09:00:00.000Z",
-      "2025-09-18T09:00:00.000Z"
-    ],
-    "_id": "100",
+    "_id": "5c88fa8cf4afda39709c0007",
     "name": "Sacred Janakpur Journey",
     "duration": 2,
     "maxGroupSize": 5,
@@ -291,28 +261,28 @@
     "imageCover": "janakpur2.jpg",
     "locations": [
       {
-        "_id": "101",
+        "_id": "5c88fa8cf4afda39709c0008",
         "description": "Janaki Temple",
         "type": "Point",
         "coordinates": [26.7304, 85.9256],
         "day": 1
       },
       {
-        "_id": "102",
+        "_id": "5c88fa8cf4afda39709c0009",
         "description": "Ganga Sagar",
         "type": "Point",
         "coordinates": [26.7287, 85.9301],
         "day": 1
       },
       {
-        "_id": "103",
+        "_id": "5c88fa8cf4afda39709c0009",
         "description": "Ram Mandir",
         "type": "Point",
         "coordinates": [26.7289, 85.9283],
         "day": 2
       },
       {
-        "_id": "104",
+        "_id": "5c88fa8cf4afda39709c0010",
         "description": "Dhanusadham",
         "type": "Point",
         "coordinates": [26.8712, 86.0428],
@@ -330,12 +300,7 @@
     "ratingsAverage": 5,
     "ratingsQuantity": 9,
     "images": ["Ghandruk1.jpg", "Ghandruk2.jpg", "Ghandruk3.jpg"],
-    "startDates": [
-      "2025-07-25T09:00:00.000Z",
-      "2025-08-20T09:00:00.000Z",
-      "2025-19-05T09:00:00.000Z"
-    ],
-    "_id": "105",
+    "_id": "5c88fa8cf4afda39709c0011",
     "name": "Ghandruk - Where the Himalayas Begin",
     "duration": 3,
     "maxGroupSize": 25,
@@ -351,21 +316,21 @@
     "imageCover": "Ghandruk1.jpg",
     "locations": [
       {
-        "_id": "106",
+        "_id": "5c88fa8cf4afda39709c0012",
         "description": "Ghandruk ",
         "type": "Point",
         "coordinates": [28.3781, 83.81],
         "day": 1
       },
       {
-        "_id": "107",
+        "_id": "5c88fa8cf4afda39709c0013",
         "description": "Landruk",
         "type": "Point",
         "coordinates": [28.3722, 83.8256],
         "day": 2
       },
       {
-        "_id": "108",
+        "_id": "5c88fa8cf4afda39709c0014",
         "description": "Dhampus ",
         "type": "Point",
         "coordinates": [28.3069, 83.842],
@@ -383,12 +348,7 @@
     "ratingsAverage": 4.5,
     "ratingsQuantity": 6,
     "images": ["poonhill1.jpg", "poonhill2.jpg", "poonhill3.jpg"],
-    "startDates": [
-      "2022-01-05T10:00:00.000Z",
-      "2022-02-12T10:00:00.000Z",
-      "2023-01-06T10:00:00.000Z"
-    ],
-    "_id": "109",
+    "_id": "5c88fa8cf4afda39709c0015",
     "name": "Poonhill - Stairway to Sunrise",
     "duration": 4,
     "maxGroupSize": 6,
@@ -404,28 +364,28 @@
     "imageCover": "poonhill1.jpg",
     "locations": [
       {
-        "_id": "110",
+        "_id": "5c88fa8cf4afda39709c0016",
         "description": "ulleri",
         "type": "Point",
         "coordinates": [28.4013, 83.6932],
         "day": 1
       },
       {
-        "_id": "111",
+        "_id": "5c88fa8cf4afda39709c0017",
         "description": "Ghorepani",
         "type": "Point",
         "coordinates": [28.4006, 83.6958],
         "day": 2
       },
       {
-        "_id": "112",
+        "_id": "5c88fa8cf4afda39709c0018",
         "description": "Poon Hill",
         "type": "Point",
         "coordinates": [28.4007, 83.6919],
         "day": 3
       },
       {
-        "_id": "113",
+        "_id": "5c88fa8cf4afda39709c0019",
         "description": "Pokhara",
         "type": "Point",
         "coordinates": [28.2096, 83.9856],
@@ -443,12 +403,7 @@
     "ratingsAverage": 4.7,
     "ratingsQuantity": 7,
     "images": ["rara1.jpg", "rara2.jpg", "rara3.jpg"],
-    "startDates": [
-      "2021-08-05T09:00:00.000Z",
-      "2022-03-20T10:00:00.000Z",
-      "2022-08-12T09:00:00.000Z"
-    ],
-    "_id": "114",
+    "_id": "5c88fa8cf4afda39709c0020",
     "name": "Rara - Shining Mirror of Mountains",
     "duration": 4,
     "maxGroupSize": 15,
@@ -464,28 +419,28 @@
     "imageCover": "rara1.jpg",
     "locations": [
       {
-        "_id": "115",
+        "_id": "5c88fa8cf4afda39709c0021",
         "description": "Surkhet",
         "type": "Point",
         "coordinates": [28.5175, 81.7787],
         "day": 1
       },
       {
-        "_id": "116",
+        "_id": "5c88fa8cf4afda39709c0022",
         "description": "Kalikot",
         "type": "Point",
         "coordinates": [29.2089, 81.7349],
         "day": 2
       },
       {
-        "_id": "117",
+        "_id": "5c88fa8cf4afda39709c0023",
         "description": "Rara Lake",
         "type": "Point",
         "coordinates": [29.5239, 82.0788],
         "day": 3
       },
       {
-        "_id": "118",
+        "_id": "5c88fa8cf4afda39709c0024",
         "description": "Kohalpur",
         "type": "Point",
         "coordinates": [28.2118, 81.7131],
@@ -503,12 +458,7 @@
     "ratingsAverage": 4.6,
     "ratingsQuantity": 5,
     "images": ["abc1.jpg", "abc2.jpg", "abc3.jpg"],
-    "startDates": [
-      "2021-03-11T10:00:00.000Z",
-      "2021-05-02T09:00:00.000Z",
-      "2021-06-09T09:00:00.000Z"
-    ],
-    "_id": "119",
+    "_id": "5c88fa8cf4afda39709c0025",
     "name": "ABC Trekking Expedition",
     "duration": 5,
     "maxGroupSize": 20,
@@ -520,35 +470,35 @@
     "imageCover": "abc1.jpg",
     "locations": [
       {
-        "_id": "120",
+        "_id": "5c88fa8cf4afda39709c0026",
         "description": "Sinuwa",
         "type": "Point",
         "coordinates": [28.4301, 83.8327],
         "day": 1
       },
       {
-        "_id": "121",
+        "_id": "5c88fa8cf4afda39709c0027",
         "description": "Machhapuchhre Base Camp",
         "type": "Point",
         "coordinates": [28.526692, 83.907845],
         "day": 2
       },
       {
-        "_id": "122",
+        "_id": "5c88fa8cf4afda39709c0028",
         "description": "Annapurna Base Camp",
         "type": "Point",
         "coordinates": [28.53, 83.878],
         "day": 3
       },
       {
-        "_id": "123",
+        "_id": "5c88fa8cf4afda39709c0029",
         "description": "Jhinu Danda",
         "type": "Point",
         "coordinates": [28.4097, 83.8238],
         "day": 4
       },
       {
-        "_id": "124",
+        "_id": "5c88fa8cf4afda39709c0030",
         "description": "Pokhara",
         "type": "Point",
         "coordinates": [28.2096, 83.9856],
@@ -566,12 +516,7 @@
     "ratingsAverage": 4.8,
     "ratingsQuantity": 9,
     "images": ["lalitpur1.jpg", "lalitpur2.jpg", "lalitpur3.jpg"],
-    "startDates": [
-      "2021-03-11T10:00:00.000Z",
-      "2021-05-02T09:00:00.000Z",
-      "2021-06-09T09:00:00.000Z"
-    ],
-    "_id": "2",
+    "_id": "5c88fa8cf4afda39709c0031",
     "name": "Lalitpur Heritage Walk",
     "duration": 3,
     "maxGroupSize": 20,
@@ -583,21 +528,21 @@
     "imageCover": "lalitpur1.jpg",
     "locations": [
       {
-        "_id": "5",
+        "_id": "5c88fa8cf4afda39709c0032",
         "description": "Patan Durbar Square",
         "type": "Point",
         "coordinates": [27.6727, 85.3253],
         "day": 1
       },
       {
-        "_id": "6",
+        "_id": "5c88fa8cf4afda39709c0033",
         "description": "Central Zoo",
         "type": "Point",
         "coordinates": [27.6727, 85.3118],
         "day": 2
       },
       {
-        "_id": "7",
+        "_id": "5c88fa8cf4afda39709c0034",
         "description": "Hiranya Varna Mahavihar",
         "type": "Point",
         "coordinates": [27.67536, 85.32447],
@@ -615,12 +560,7 @@
     "ratingsAverage": 4.4,
     "ratingsQuantity": 7,
     "images": ["bandipur1.jpg", "bandipur2.jpg", "bandipur3.jpg"],
-    "startDates": [
-      "2021-03-11T10:00:00.000Z",
-      "2021-05-02T09:00:00.000Z",
-      "2021-06-09T09:00:00.000Z"
-    ],
-    "_id": "8",
+    "_id": "5c88fa8cf4afda39709c0035",
     "name": "Mystic Bandipur Trails",
     "duration": 2,
     "maxGroupSize": 20,
@@ -632,14 +572,14 @@
     "imageCover": "bandipur1.jpg",
     "locations": [
       {
-        "_id": "11",
+        "_id": "5c88fa8cf4afda39709c0036",
         "description": "Bandipur Local Exploration",
         "type": "Point",
         "coordinates": [27.917, 84.4068],
         "day": 1
       },
       {
-        "_id": "12",
+        "_id": "5c88fa8cf4afda39709c0037",
         "description": "Nature and Caves",
         "type": "Point",
         "coordinates": [27.94849, 84.419],
@@ -657,12 +597,7 @@
     "ratingsAverage": 4.6,
     "ratingsQuantity": 5,
     "images": ["manang1.jpg", "manang2.jpg", "manang3.jpg"],
-    "startDates": [
-      "2021-03-11T10:00:00.000Z",
-      "2021-05-02T09:00:00.000Z",
-      "2021-06-09T09:00:00.000Z"
-    ],
-    "_id": "13",
+    "_id": "5c88fa8cf4afda39709c0038",
     "name": "Manang Peaks & Valleys Tour",
     "duration": 4,
     "maxGroupSize": 20,
@@ -674,28 +609,28 @@
     "imageCover": "manang1.jpg",
     "locations": [
       {
-        "_id": "16",
+        "_id": "5c88fa8cf4afda39709c0039",
         "description": "Besisahar",
         "type": "Point",
         "coordinates": [28.1962, 84.3857],
         "day": 1
       },
       {
-        "_id": "17",
+        "_id": "5c88fa8cf4afda39709c0040",
         "description": "Manang Sightseeing",
         "type": "Point",
         "coordinates": [28.6667, 84.0167],
         "day": 2
       },
       {
-        "_id": "18",
+        "_id": "5c88fa8cf4afda39709c0041",
         "description": "Valley Tour",
         "type": "Point",
         "coordinates": [28.6369, 84.0394],
         "day": 3
       },
       {
-        "_id": "19",
+        "_id": "5c88fa8cf4afda39709c0042",
         "description": "Manang to Jagat",
         "type": "Point",
         "coordinates": [28.4147, 84.4066],
@@ -713,12 +648,7 @@
     "ratingsAverage": 4.2,
     "ratingsQuantity": 9,
     "images": ["dhorpatan1.jpg", "dhorpatan2.jpg", "dhorpatan3.jpg"],
-    "startDates": [
-      "2021-03-11T10:00:00.000Z",
-      "2021-05-02T09:00:00.000Z",
-      "2021-06-09T09:00:00.000Z"
-    ],
-    "_id": "20",
+    "_id": "5c88fa8cf4afda39709c0043",
     "name": "Dhorpatan Wilderness Trek",
     "duration": 3,
     "maxGroupSize": 20,
@@ -730,21 +660,21 @@
     "imageCover": "dhorpatan1.jpg",
     "locations": [
       {
-        "_id": "23",
+        "_id": "5c88fa8cf4afda39709c0044",
         "description": "Camping at Dhorpatan",
         "type": "Point",
         "coordinates": [28.5001, 83.0645],
         "day": 1
       },
       {
-        "_id": "24",
+        "_id": "5c88fa8cf4afda39709c0045",
         "description": "Dhorpatan Hunting Expedition",
         "type": "Point",
         "coordinates": [28.5856, 82.9932],
         "day": 2
       },
       {
-        "_id": "25",
+        "_id": "5c88fa8cf4afda39709c0046",
         "description": "Dhorpatan Hunting Expedition",
         "type": "Point",
         "coordinates": [28.5856, 82.9932],
@@ -762,12 +692,7 @@
     "ratingsAverage": 4.8,
     "ratingsQuantity": 5,
     "images": ["bardiya1.jpg", "bardiya2.jpg", "bardiya3.jpg"],
-    "startDates": [
-      "2021-03-11T10:00:00.000Z",
-      "2021-05-02T09:00:00.000Z",
-      "2021-06-09T09:00:00.000Z"
-    ],
-    "_id": "26",
+    "_id": "5c88fa8cf4afda39709c0047",
     "name": "Bardiya Nature & Safari Adventure",
     "duration": 3,
     "maxGroupSize": 20,
@@ -779,21 +704,21 @@
     "imageCover": "bardiya1.jpg",
     "locations": [
       {
-        "_id": "29",
+        "_id": "5c88fa8cf4afda39709c0048",
         "description": "Village Tour",
         "type": "Point",
         "coordinates": [28.316528, 81.387199],
         "day": 1
       },
       {
-        "_id": "30",
+        "_id": "5c88fa8cf4afda39709c0049",
         "description": "Jungle Walk",
         "type": "Point",
         "coordinates": [28.3649, 81.5596],
         "day": 2
       },
       {
-        "_id": "31",
+        "_id": "5c88fa8cf4afda39709c0050",
         "description": "Jeep Safari",
         "type": "Point",
         "coordinates": [28.3649, 81.5596],
