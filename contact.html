@@ -11,13 +11,24 @@
       <div class="logo">
         <img src="logo.png" alt="TravelEase Logo" class="logo-img" />
       </div>
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#">Trekking</a></li>
-        <li><a href="#">Expeditions</a></li>
-        <li><a href="#">Tours</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+      <div class="burger" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="navright">
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Trekking</a></li>
+          <li><a href="#">Expeditions</a></li>
+          <li><a href="#">Tours</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <ul class="nav-links">
+          <li><a href="login.html">Log in</a></li>
+          <li><a href="#">Sign up</a></li>
+        </ul>
+      </div>
     </nav>
     <main>
       <section class="contact-section">
@@ -70,24 +81,35 @@
         </div>
       </section>
     </main>
-    <section class="footer-contact">
-      <div class="footer-inner">
-        <img src="logo.png" alt="Travel Ease logo" class="footer-logo" />
-        <p>
-          <i class="icon">📞</i>
-          <a href="tel:+9779768787877">+977-9856756785</a>
-        </p>
-        <p>
-          <i class="icon">✉️</i>
-          <a href="mailto:TravelEase@gmail.com">TravelEase@gmail.com</a>
-        </p>
-        <p><i class="icon">📍</i> Thamel, Kathmandu, Bagmati, 44600, Nepal</p>
-      </div>
-    </section>
+
     <footer>
-      <div class="footerBox">
-        <p>Copyright &copy; Travel Ease Pvt Ltd All Rights Reserved</p>
-      </div>
+      <section class="footer-contact">
+        <div class="footer-inner">
+          <img src="logo-1.png" alt="Travel Ease logo" class="footer-logo" />
+          <p>
+            <i class="icon">📞</i>
+            <a href="tel:+9779768787877">+977-9856756785</a>
+          </p>
+          <p>
+            <i class="icon">✉️</i>
+            <a href="mailto:TravelEase@gmail.com">TravelEase@gmail.com</a>
+          </p>
+          <p><i class="icon">📍</i> Thamel, Kathmandu, Bagmati, 44600, Nepal</p>
+        </div>
+        <div class="footerBox">
+          <p>Copyright &copy; Travel Ease Pvt Ltd All Rights Reserved</p>
+        </div>
+      </section>
     </footer>
+
+    <script>
+      const burger = document.querySelector(".burger");
+      const navRight = document.querySelector(".navright"); // Target the navright div
+
+      burger.addEventListener("click", () => {
+        navRight.classList.toggle("active");
+        burger.classList.toggle("active"); // Keep this if you want burger animation
+      });
+    </script>
   </body>
 </html>

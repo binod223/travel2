@@ -44,9 +44,6 @@ body {
   color: #ff5722; /* Optional hover color (orange accent) */
 }
 
-.container{
-}
-
 .tour-image{
   position: relative;
   height: 400px;
@@ -183,60 +180,56 @@ body {
   font-weight: bold;
 }
 
-.day-card {
-      background-color: white;
-      border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-      margin: 28px;
-      padding: 20px;
-    }
-
-    .day-header {
-      display: flex;
-      align-items: center;
-      background-color: orange;
-      color: white;
-      border-radius: 5px;
-      padding: 10px;
-      margin-bottom: 15px;
-    }
-
-    .day-number {
-      background-color: rgb(222 153 64);
-      border-radius: 5px;
-      padding: 10px;
-      margin-right: 15px;
-      font-weight: bold;
-    }
-
-    .icons {
-      display: flex;
-      gap: 20px;
-      margin-bottom: 15px;
-    }
-
-    .icons span {
-      display: flex;
-      align-items: center;
-      gap: 5px;
-    }
-
-    h2 {
-      margin: 0;
-    }
-
-    p {
-      margin: 5px 0;
-    }
-
-.overview-image{
-  display: block;
-  margin: 20px auto 0 auto;
-  border-radius: 8px;
-  width: 35%;
-  height: auto;
+.itinerary-container{
+  width: 100%;
+  padding: 4rem;
 }
 
+.itinerary-card {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin: 20px auto;
+  max-width: 100%;
+  font-family: 'Arial', sans-serif;
+}
+
+.itinerary-header {
+  background-color: #f9a825; /* orange header */
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.itinerary-header .day {
+  background-color: #d17c00;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.itinerary-header h2 {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+.itinerary-details {
+  padding: 15px 20px;
+  color: #333;
+}
+
+.itinerary-details p {
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+.itinerary-details strong {
+  color: #000;
+}
 
 .footerBox {
   background-color: azure;

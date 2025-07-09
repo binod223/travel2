@@ -133,7 +133,8 @@ body {
 }
 
 .footer-contact {
-    background-color: #111;
+    background-color: #50504d;
+    opacity: 0.8;
     color: #fff;
     padding: 40px 20px;
     text-align: center;

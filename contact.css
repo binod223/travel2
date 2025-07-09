@@ -16,6 +16,24 @@ body {
   background-color: #ffffff; /* White background */
   padding: 15px 30px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for separation */
+  justify-content: space-around;
+}
+/* Burger Icon */
+.burger {
+  display: none; /* Hidden by default on desktop */
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px; /* Space between burger lines */
+  z-index: 1001; /* Ensure burger is clickable above other content */
+  padding: 5px; /* Add padding for easier tapping on mobile */
+}
+
+.burger span {
+  height: 3px;
+  width: 25px;
+  background: #333;
+  display: block;
+  transition: all 0.3s ease-in-out;
 }
 
 /* Logo image */
@@ -35,12 +53,19 @@ body {
 .nav-links li a {
   text-decoration: none;
   color: #000000; /* Black text */
-  font-size: 1rem;
+  font-size: 1.5rem;
+  font-family: cursive;
   transition: color 0.3s ease;
 }
 
 .nav-links li a:hover {
   color: #ff5722; /* Optional hover color (orange accent) */
+}
+
+.navright {
+  display: flex;
+  align-items: center;
+  gap: 450px;
 }
 
 .tour-image {
@@ -150,12 +175,12 @@ body {
 }
 
 .footerBox {
-  background-color: azure;
+  background-color: #50504d;
   text-align: center;
   min-height: 30px;
 }
 .footerBox p {
-  color: black;
+  color: white;
   font-size: 1.8rem;
 }
 .navright {
@@ -256,10 +281,12 @@ button:hover {
   text-decoration: underline;
 }
 .footer-contact {
-  background-color: #111;
+  background-color: #50504d;
+  opacity: 0.8;
   color: #fff;
   padding: 40px 20px;
   text-align: center;
+  height: 20rem;
 }
 
 .footer-inner {
@@ -270,6 +297,7 @@ button:hover {
 .footer-logo {
   width: 150px;
   margin-bottom: 20px;
+  border-radius: 1rem;
 }
 
 .footer-contact p {
@@ -292,4 +320,119 @@ button:hover {
 
 .icon {
   font-style: normal;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Mobile devices - 768px and below */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 15px 20px;
+  }
+
+  .logo-img {
+    height: 45px;
+  }
+
+  .burger {
+    display: flex; /* Show burger icon on smaller screens */
+  }
+
+  .navright {
+    /* Mobile menu styles for the entire navright container */
+    flex-direction: column; /* Stack ul's vertically */
+    align-items: center; /* Center ul's */
+    background: white;
+    position: absolute;
+    top: 80px; /* Position below navbar (adjust if navbar height changes) */
+    right: 0;
+    width: 100%; /* Take full width of the screen */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    max-height: 0; /* Initially hidden with no height */
+    overflow: hidden; /* Hide content that exceeds max-height */
+    transition: max-height 0.3s ease-out, padding 0.3s ease-out; /* Smooth transition */
+    z-index: 999; /* Ensure menu is below navbar but above main content */
+    padding: 0; /* No padding when hidden */
+    gap: 0; /* Remove gap between the two ul's on mobile */
+  }
+
+  .navright.active {
+    max-height: 500px; /* A value large enough to show all content. Adjust if needed. */
+    padding: 1rem 0; /* Add vertical padding when active */
+  }
+
+  /* Styles for the individual ul.nav-links when mobile menu is active */
+  .navright .nav-links {
+    flex-direction: column; /* Stack list items vertically */
+    width: 100%; /* Make ul take full width inside navright */
+    gap: 0; /* Remove gap between list items */
+    padding: 0; /* Remove default ul padding */
+    align-items: center; /* Center links in the dropdown */
+  }
+
+  .navright .nav-links li {
+    width: 100%; /* Make list item take full width */
+    text-align: center; /* Center the text within each list item */
+    padding: 12px 0; /* Add vertical padding to each link item */
+    border-bottom: 1px solid #eee; /* Separator line between items */
+  }
+
+  .navright .nav-links li:last-child {
+    border-bottom: none; /* Remove border from the last item in each ul */
+  }
+
+  .navright .nav-links li a {
+    font-size: 1.2rem; /* Adjust font size for mobile links */
+    display: block; /* Make the link fill the entire list item area for easier clicking */
+    padding: 5px 0; /* Small inner padding for the actual link text */
+  }
+
+  /* Contact section responsiveness */
+  .contact-section {
+    padding: 20px 10px;
+  }
+
+  .form-container,
+  .contact-details {
+    padding: 15px;
+  }
+
+  /* Footer responsiveness */
+  .footer-contact {
+    padding: 30px 10px;
+    min-height: auto;
+  }
+
+  .footer-logo {
+    width: 120px;
+  }
+
+  .footer-contact p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Small mobile devices */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .form-container {
+    padding: 10px;
+  }
+
+  input,
+  textarea {
+    font-size: 0.9rem;
+  }
+
+  button {
+    width: 80px;
+    font-size: 0.9rem;
+  }
+
+  .navright .nav-links li a {
+    font-size: 1.1rem; /* Slightly smaller font for very small screens */
+  }
 }
